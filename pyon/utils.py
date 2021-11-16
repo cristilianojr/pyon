@@ -21,8 +21,9 @@ def indent_string(string: str, apply_indentation_with: int = 4) -> str:
         elif char[1] == ',':
             c = char_list.pop(char[0])
             char_list.insert(char[0], c + '\n' + indent_space * indent_counter)
-        elif char[1] == ' ' and before_char == ',':
+        elif before_char == ',':
             c = char_list.pop(char[0])
+            char_list.insert(char[0], 'f')
 
         before_char = char[1]
         
