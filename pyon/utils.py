@@ -23,7 +23,7 @@ def indent_string(string: str, apply_indentation_with: int = 4) -> str:
             char_list.insert(char[0], c + '\n' + indent_space * indent_counter)
         elif char[1] == ' ' and before_char == ',':
             c = char_list.pop(char[0])
-            char_list.insert(char[0], '')
+
         before_char = char[1]
         
     return ''.join(char_list)
