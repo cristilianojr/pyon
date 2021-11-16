@@ -5,7 +5,7 @@ def __checking_pyon(path: str):
 
 def indent_string(string: str, apply_indentation_with: int = 4) -> str:
     indent_counter = 0
-    indent_space = ' ' * 4
+    indent_space = ' ' * apply_indentation_with
     char_list = [c for c in string]
 
     for char in enumerate(char_list):
