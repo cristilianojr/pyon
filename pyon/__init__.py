@@ -1,6 +1,6 @@
 from ast import literal_eval as _literal_eval
 from typing import Any
-from utils import __checking_pyon, indent_string
+from .utils import __checking_pyon, indent_string
 
 
 def load(path: str, encoding='UTF-8') -> list | dict:

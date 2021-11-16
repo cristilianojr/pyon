@@ -1,5 +1,4 @@
 
-
 def __checking_pyon(path: str):
     if not path.endswith('.pyon'):
         raise Exception(f'FileNameError - the path {path} not is a pyon file')
