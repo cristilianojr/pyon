@@ -7,7 +7,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 DESCRIPTION = 'Pyon (Python Object Notation / .pyon)'
 LONG_DESCRIPTION = 'Pyon (Python Object Notation) is a file that stores data in python code style and are .pyon files'
 

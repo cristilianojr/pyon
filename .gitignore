@@ -1,4 +1,7 @@
 virtualenv/
 __pycache__/
 data/
-main.py 
+main.py
+tests/
+test1.py
+*.pyon
