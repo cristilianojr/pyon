@@ -1,6 +1,14 @@
 # Pyon
 Pyon é um arquivo de notação para listas e dicionários em Python, servindo como um arquivo de armazenamento de dados. Similar ao formato JSON, Pyon oferece os comandos dump e load para gravar e carregar dados em formato Pyon.
 
+# Instalação
+Para utilizar o módulo Pyon, você precisa instalá-lo em seu ambiente Python. A instalação pode ser feita através do gerenciador de pacotes pip.
+
+```cmd
+pip install pyon
+```
+Após executar o comando acima, o módulo Pyon estará instalado em seu ambiente Python e você poderá utilizá-lo em seus projetos. Certifique-se de que o ambiente virtual (se estiver usando um) esteja ativado antes de executar o comando de instalação.
+
 # Utilização
 O módulo Pyon oferece duas formas de utilização: utilizando a classe PyonFile ou diretamente chamando as funções load, loads, dump e dumps.
 
